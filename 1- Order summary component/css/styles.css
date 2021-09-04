@@ -16,11 +16,6 @@ html {
 }
 
 body {
-  background: url(../images/pattern-background-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -28,15 +23,35 @@ button {
   font-family: inherit;
 }
 
+/* background image */
+
+.bg-image {
+  background: url(../images/pattern-background-mobile.svg) no-repeat
+    center/cover;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-image {
+    background: url(../images/pattern-background-desktop.svg) no-repeat
+      center/cover;
+    height: 50vh;
+  }
+}
 /* main div */
 .container {
-  padding: 2rem;
-  margin: 2rem;
+  padding: 20px;
+  margin: 20px;
   border: 1px solid green;
-  width: 450px;
-  height: 600px;
   background-color: var(--very-pale-blue);
-  border-radius: 1rem;
+  border-radius: 5px;
   box-shadow: 2px 5px 5px var(--desaturated-blue);
 }
 
