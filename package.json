@@ -1,0 +1,25 @@
+{
+  "name": "7-frontendMentor",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00001\u0000-\u0000-\u0000O\u0000r\u0000d\u0000e\u0000r\u0000-\u0000s\u0000u\u0000m\u0000m\u0000a\u0000r\u0000y\u0000-\u0000c\u0000o\u0000m\u0000p\u0000o\u0000n\u0000e\u0000n\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilliDGemini/1--Order-summary-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilliDGemini/1--Order-summary-component/issues"
+  },
+  "homepage": "https://github.com/MilliDGemini/1--Order-summary-component#readme"
+}
